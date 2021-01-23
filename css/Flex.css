@@ -1,0 +1,53 @@
+.heading {
+    padding: 60px;
+    text-align: center;
+    background: #582581;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(88, 139, 173);
+    border-radius: 0px;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(97, 66, 66);
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.right {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.img {
+    background-color: rgb(170, 45, 114);
+    width: 100%;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
